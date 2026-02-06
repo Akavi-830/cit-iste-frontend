@@ -1,0 +1,61 @@
+@media (max-width: 900px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+  .logo span {
+    font-size: 1rem;
+  }
+
+  .logo img {
+    height: 30px;
+  }
+}
+
+
+  .hero-image {
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #050b2e;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-links a {
+    padding: 15px;
+    display: block;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}
+
+
+@media (max-width: 900px) {
+  .about-cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 900px) {
+  .schedule-cards {
+    grid-template-columns: 1fr;
+  }
+}
+@media (max-width: 900px) {
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
