@@ -1,2 +1,2 @@
-# cit-iste-frontend
-frontend website for congnitive intelligence test (cit 9.0)
+#live demo
+https://cit-iste2.netlify.app/
